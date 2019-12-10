@@ -37,7 +37,8 @@ class Game
     else
       @current_player = 0
     end
-    puts "-------------- New Turn --------------" unless game_over?
+    puts "-------------- New Turn --------------" 
+    unless game_over?
   end
 
   def game_stats
