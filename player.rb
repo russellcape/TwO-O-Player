@@ -7,8 +7,4 @@ class Player
     @lives = 3
   end
 
-  def dead?
-    @lives < 0
-  end
-
 end
